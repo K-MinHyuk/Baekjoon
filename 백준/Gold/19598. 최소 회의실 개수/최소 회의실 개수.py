@@ -5,7 +5,7 @@ schedule = []
 for i in range(N):
     schedule.append(list(map(int, input().split())))
 
-schedule = sorted(schedule, key=lambda x: (x[0], x[1]))
+schedule = sorted(schedule, key=lambda x: x[0])
 
 cnt = 1
 last_time = [0]
